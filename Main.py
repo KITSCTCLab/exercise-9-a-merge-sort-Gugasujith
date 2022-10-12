@@ -1,7 +1,7 @@
 from typing import List
 
-def merge_sort(data) -> None:
- if len(myList) > 1:
+def merge_sort(myList) -> None:
+  if len(myList) > 1:
         mid = len(myList) // 2
         left = myList[:mid]
         right = myList[mid:]
@@ -39,7 +39,6 @@ def merge_sort(data) -> None:
             myList[k]=right[j]
             j += 1
             k += 1
-
 
 
 # Do not change the following code
